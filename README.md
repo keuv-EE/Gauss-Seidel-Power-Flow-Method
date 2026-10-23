@@ -21,7 +21,6 @@ The code is intended for academic purposes and allows simulation of a network wi
 
 - Bus 1 is implicitly treated as the reference/slack bus, since the iterative loop starts at `i = 2`.
 - The script uses manual terminal input for all data.
-- The file can be renamed from `clear.txt` to, for example, `load_flow_gauss_seidel.m`.
 - There is no advanced data validation, CSV/file input, or graphical interface.
 
 ## Applications
