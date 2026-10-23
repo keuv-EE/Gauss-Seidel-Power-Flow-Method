@@ -32,7 +32,7 @@ end
 S = zeros(1, n_barras);
 
 for i = 1:n_barras
-    S(i) = input(sprintf('Potência na barra %d: ', i));
+    S(i) = input(sprintf('Potencia na barra %d: ', i));
 end
 
 % S2 = - 2.566 - 1.102i;
@@ -75,7 +75,7 @@ end
 
 tipo_barra = string(zeros(1, n_barras));
 for i = 1:n_barras
-    tipo_barra(i) = input(sprintf("Qual é o tipo da barra %d? ", i), "s");
+    tipo_barra(i) = input(sprintf("Qual e o tipo da barra %d? ", i), "s");
 end
 
 iter = 1;     % numero de iteracoes
